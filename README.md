@@ -1,0 +1,2 @@
+# life-community
+For human
