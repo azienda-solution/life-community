@@ -124,6 +124,7 @@ def extract_list_from_google(driverinstance, title, result_expected,by_day=None)
             google_url = google_url.replace('search?q=', 'search?num=30&tbs=qdr:d&q=')
         else:
             google_url = google_url.replace('search?q=', 'search?num='+result_expected+'&q=')
+            # 'search?num=80&q=')
         driverinstance.get(google_url)
         waitloading(4, driver=driverinstance)
         links = driverinstance.find_elements(By.XPATH,"//div[contains(@data-snhf, '0')]//a")
