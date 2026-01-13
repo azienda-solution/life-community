@@ -1,3 +1,6 @@
 fastapi==0.115.0
 uvicorn[standard]==0.30.0
 apscheduler==3.10.4
+seleniumbase
+moviepy
+python-multipart
