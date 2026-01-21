@@ -1,7 +1,7 @@
 // app/tools/registry.tsx
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 // ==================== TYPES ====================
 export interface ToolComponentProps {
@@ -87,6 +87,11 @@ export function PdfToPpt({ onComplete }: ToolComponentProps) {
 export function ImagesToPdf({ onComplete }: ToolComponentProps) {
   const [files, setFiles] = useState<File[]>([]);
 
+  useEffect(() => {
+    if (files.length > 0) {
+      console.log('Selected files:', files);
+    }
+  }, [files]);
   return (
     <div className="tool-interface">
       <div className="upload-zone">
