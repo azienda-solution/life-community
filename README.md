@@ -75,4 +75,5 @@ Frontend will be available at:
 👉 `http://localhost:3000`
 
 ---
-![image](./docs/creen1.png)
+<p><img src="./docs/screen1.png" alt="image"></p>
+

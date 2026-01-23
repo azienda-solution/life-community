@@ -31,7 +31,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* CTA Buttons avec hover animation */}
+          {/* CTA Buttons avec hover animation 
           <div className="flex flex-wrap justify-center gap-4 mb-12 animate-fade-in-up-delay-2">
             <Link 
               href="/login" 
@@ -46,7 +46,7 @@ export default function Home() {
             >
               S&apos;inscrire
             </Link>
-          </div>
+          </div>*/}
 
           {/* Features Cards avec stagger animation */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-16">
